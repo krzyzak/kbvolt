@@ -1,0 +1,4 @@
+
+.flashicon-:before { content: '\e800'; } /* '' */
+.callicon-:before { content: '\e804'; } /* '' */
+.mail-alticon-:before { content: '\f0e0'; } /* '' */
