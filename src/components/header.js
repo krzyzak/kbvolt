@@ -11,12 +11,12 @@ const Header = ({ siteTitle }) => (
 
 			<div className="container clearfix">
 				<div id="logo">
-					<a href="index.html" className="standard-logo"><img src="demos/construction/images/logo.png" alt="Canvas Logo" /></a>
-					<a href="index.html" className="retina-logo"><img src="demos/construction/images/logo@2x.png" alt="Canvas Logo" /></a>
+					{/* <a href="index.html" className="standard-logo"><img src="demos/construction/images/logo.png" alt="Canvas Logo" /></a>
+					<a href="index.html" className="retina-logo"><img src="demos/construction/images/logo@2x.png" alt="Canvas Logo" /></a> */}
 				</div>
 
 				<ul className="header-extras">
-					<li>
+					{/* <li>
 						<i className="i-plain icon-call nomargin"></i>
 						<div className="he-text">
 							Call Us
@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
 							We'are Open
 							<span>Mon - Sat, 10AM to 6PM</span>
 						</div>
-					</li>
+					</li> */}
 				</ul>
 
 			</div>
@@ -48,7 +48,7 @@ const Header = ({ siteTitle }) => (
 
 						<div id="primary-menu-trigger"><i className="icon-reorder"></i></div>
 
-						<ul>
+						{/* <ul>
 							<li className="current"><a href="#"><div>Home</div></a></li>
 							<li><a href="demos/construction/services.html"><div>What we do</div></a>
 								<ul>
@@ -72,7 +72,7 @@ const Header = ({ siteTitle }) => (
 							<li><a href="demos/construction/blog.html"><div>News</div></a></li>
 							<li><a href="demos/construction/careers.html"><div>Careers</div></a></li>
 							<li><a href="demos/construction/contact.html"><div>Contact</div></a></li>
-						</ul>
+						</ul> */}
 					</div>
 
 				</nav>
