@@ -2,10 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import "./bootstrap.css"
-import "./style.css"
-import "./construction.css"
-
 const Header = ({ siteTitle }) => (
   <header id="header" className="sticky-style-2">
 
@@ -48,8 +44,21 @@ const Header = ({ siteTitle }) => (
 
 						<div id="primary-menu-trigger"><i className="icon-reorder"></i></div>
 
-						{/* <ul>
-							<li className="current"><a href="#"><div>Home</div></a></li>
+						<ul>
+              <li><Link to="/">Home</Link></li>
+              <li> <Link>Fotowoltaika</Link>
+                <ul>
+                  <li><Link to="/fotowoltaika-dla-firm">Fotowoltaika dla firm</Link></li>
+                  <li><Link to="/fotowoltaika-dla-domu">Fotowoltaika dla domu</Link></li>
+                </ul>
+              </li>
+              <li><Link to="/o-nas">O nas</Link></li>
+              <li><Link to="/projekty-instalacji-elektrycznej-w-przemysle">Projekty instalacji elektrycznej w przemyśle</Link></li>
+              <li><Link to="/projekty-instalacji-elektrycznej-w-domu">Projekty instalacji elektrycznej w domu</Link></li>
+
+              <li><Link to="/oswietlenie-przemyslowe-led"> Oprawy przemysłowe LED</Link></li>
+              <li><Link to="/iluminacje-swiateczne">Iluminacje swietlne</Link></li>
+							{/* <li className="current"><a href="#"><div>Home</div></a></li>
 							<li><a href="demos/construction/services.html"><div>What we do</div></a>
 								<ul>
 									<li><a href="#"><div>Housing Management</div></a></li>
@@ -71,8 +80,8 @@ const Header = ({ siteTitle }) => (
 							<li><a href="demos/construction/investors.html"><div>Investors</div></a></li>
 							<li><a href="demos/construction/blog.html"><div>News</div></a></li>
 							<li><a href="demos/construction/careers.html"><div>Careers</div></a></li>
-							<li><a href="demos/construction/contact.html"><div>Contact</div></a></li>
-						</ul> */}
+							<li><a href="demos/construction/contact.html"><div>Contact</div></a></li> */}
+						</ul>
 					</div>
 
 				</nav>
