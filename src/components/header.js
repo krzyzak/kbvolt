@@ -46,12 +46,8 @@ const Header = ({ siteTitle }) => (
 
 						<ul>
               <li><Link to="/">Home</Link></li>
-              <li> <Link>Fotowoltaika</Link>
-                <ul>
-                  <li><Link to="/fotowoltaika-dla-firm">Fotowoltaika dla firm</Link></li>
-                  <li><Link to="/fotowoltaika-dla-domu">Fotowoltaika dla domu</Link></li>
-                </ul>
-              </li>
+							<li><Link to="/fotowoltaika-dla-firm">Fotowoltaika dla firm</Link></li>
+							<li><Link to="/fotowoltaika-dla-domu">Fotowoltaika dla domu</Link></li>
               <li><Link to="/o-nas">O nas</Link></li>
               <li><Link to="/projekty-instalacji-elektrycznej-w-przemysle">Projekty instalacji elektrycznej w przemyśle</Link></li>
               <li><Link to="/projekty-instalacji-elektrycznej-w-domu">Projekty instalacji elektrycznej w domu</Link></li>
