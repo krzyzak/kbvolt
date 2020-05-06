@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import * as loadScript from "simple-load-script";
 
 import Header from "./header"
 import Footer from "./footer"
@@ -19,6 +20,10 @@ import "./fonts.css"
 import "./colors.css"
 
 const Layout = ({ children }) => {
+  loadScript('js/jquery.js', { inBody: true })
+  loadScript('js/plugins.js', { inBody: true })
+  loadScript('js/functions.js', { inBody: true })
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
