@@ -1,38 +1,37 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import logo from '../images/logo.png'
+
 
 const Header = ({ siteTitle }) => (
   <header id="header" className="sticky-style-2">
 
 			<div className="container clearfix">
 				<div id="logo">
-					{/* <a href="index.html" className="standard-logo"><img src="demos/construction/images/logo.png" alt="Canvas Logo" /></a>
-					<a href="index.html" className="retina-logo"><img src="demos/construction/images/logo@2x.png" alt="Canvas Logo" /></a> */}
+					<a href="index.html" className="standard-logo">
+						<img src={logo} />
+					</a>
+					<a href="index.html" className="retina-logo">
+						<img src={logo} />
+					</a>
 				</div>
 
 				<ul className="header-extras">
-					{/* <li>
+					<li>
 						<i className="i-plain icon-call nomargin"></i>
 						<div className="he-text">
-							Call Us
-							<span>(91) 22 54215821</span>
+							Zadzwoń
+							<span>(32) 239-57-46</span>
 						</div>
 					</li>
 					<li>
 						<i className="i-plain icon-line2-envelope nomargin"></i>
 						<div className="he-text">
-							Email Us
-							<span>info@canvas.com</span>
+							Napisz
+							<span>kbvolt@kbvolt.pl</span>
 						</div>
 					</li>
-					<li>
-						<i className="i-plain icon-line-clock nomargin"></i>
-						<div className="he-text">
-							We'are Open
-							<span>Mon - Sat, 10AM to 6PM</span>
-						</div>
-					</li> */}
 				</ul>
 
 			</div>
