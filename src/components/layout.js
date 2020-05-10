@@ -18,6 +18,7 @@ import "./style.css"
 import "./construction.css"
 import "./fonts.css"
 import "./colors.css"
+import "./dark.css"
 
 const Layout = ({ children }) => {
   loadScript('js/jquery.js', { inBody: true })

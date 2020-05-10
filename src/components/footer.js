@@ -1,4 +1,5 @@
 import React from "react"
+import logo from "../images/logo.png"
 
 const Footer = () => (
   <footer id="footer" className="dark">
@@ -10,17 +11,14 @@ const Footer = () => (
 
 						<div className="widget clearfix">
 
-              {/* TODO: Change logo */}
-							{/* <img src="images/footer-widget-logo.png" alt="" className="alignleft" /> */}
+							{/* <img src={logo} alt="" className="alignleft" /> */}
 
-              {/* TODO: change copy */}
-							{/* <p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p> */}
+							<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
 
 							<div className="line"></div>
 
-              {/* TODO: Adjust links */}
-							{/* <div className="row">
 
+							{/* <div className="row">
 								<div className="col-lg-3 col-6 bottommargin-sm widget_links">
 									<ul>
 										<li><a href="#">Home</a></li>
@@ -67,8 +65,8 @@ const Footer = () => (
 
 					</div>
 
-          {/* TODO: Adjust contact info */}
-					{/* <div className="col_one_third col_last">
+
+					<div className="col_one_third col_last">
 
 						<div className="widget clear-bottommargin-sm clearfix">
 
@@ -76,15 +74,15 @@ const Footer = () => (
 
 								<div className="col-lg-12 bottommargin-sm">
 									<div className="footer-big-contacts">
-										<span>Call Us:</span>
-										(91) 22 55412474
+										<span>Zadzwoń do nas:</span>
+										(32) 239-57-46
 									</div>
 								</div>
 
 								<div className="col-lg-12 bottommargin-sm">
 									<div className="footer-big-contacts">
-										<span>Send an Email:</span>
-										info@canvas.com
+										<span>Napisz do nas:</span>
+										kbvolt@kbvolt.pl
 									</div>
 								</div>
 
@@ -92,7 +90,7 @@ const Footer = () => (
 
 						</div>
 
-					</div> */}
+					</div>
 
 				</div>
 
@@ -104,11 +102,9 @@ const Footer = () => (
 
 					<div className="col_half">
             {/* TODO: Adjust copy */}
-						{/* Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br /> */}
+						Copyrights &copy; 2020 All Rights Reserved by K.B. Volt sp z O.O.<br />
 					</div>
-
 				</div>
-
 			</div>
 		</footer>
 )
