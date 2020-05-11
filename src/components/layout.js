@@ -39,7 +39,7 @@ const Layout = ({ phone, children }) => {
     <>
       <Header phone={phone} siteTitle={data.site.siteMetadata.title} />
       {children}
-      <Footer />
+      <Footer phone={phone} />
     </>
   )
 }

@@ -1,7 +1,8 @@
 import React from "react"
+import PropTypes from "prop-types"
 import logo from "../images/logo.png"
 
-const Footer = () => (
+const Footer = ({ phone }) => (
   <footer id="footer" className="dark">
 			<div className="container">
 
@@ -75,7 +76,7 @@ const Footer = () => (
 								<div className="col-lg-12 bottommargin-sm">
 									<div className="footer-big-contacts">
 										<span>Zadzwoń do nas:</span>
-										(32) 239-57-46
+										{phone}
 									</div>
 								</div>
 
@@ -108,6 +109,14 @@ const Footer = () => (
 			</div>
 		</footer>
 )
+
+Footer.propTypes = {
+  phone: PropTypes.string,
+}
+
+Footer.defaultProps = {
+  phone: `606 394 570`,
+}
 
 
 export default Footer
