@@ -8,12 +8,12 @@ const Header = ({ phone }) => (
 
 			<div className="container clearfix">
 				<div id="logo">
-					<a href="index.html" className="standard-logo">
+					<Link to="/" className="standard-logo">
 						<img src={logo} />
-					</a>
-					<a href="index.html" className="retina-logo">
+					</Link>
+					<Link to="/" className="retina-logo">
 						<img src={logo} />
-					</a>
+					</Link>
 				</div>
 
 				<ul className="header-extras">
