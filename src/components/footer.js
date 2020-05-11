@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import logo from "../images/logo.png"
 
@@ -19,48 +20,37 @@ const Footer = ({ phone }) => (
 							<div className="line"></div>
 
 
-							{/* <div className="row">
+							<div className="row">
 								<div className="col-lg-3 col-6 bottommargin-sm widget_links">
 									<ul>
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About</a></li>
-										<li><a href="#">FAQs</a></li>
-										<li><a href="#">Support</a></li>
-										<li><a href="#">Contact</a></li>
+										<li><Link to="/">Home</Link></li>
+										<li><Link to="/">O nas</Link></li>
+										{/* <li><Link to="/">Kontakt</Link></li> */}
 									</ul>
 								</div>
 
 								<div className="col-lg-3 col-6 bottommargin-sm widget_links">
 									<ul>
-										<li><a href="#">Shop</a></li>
-										<li><a href="#">Portfolio</a></li>
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">Events</a></li>
-										<li><a href="#">Forums</a></li>
+										<li><Link to="/fotowoltaika-dla-firm">Fotowoltaika dla firm</Link></li>
+										<li><Link to="/fotowoltaika-dla-domu">Fotowoltaika dla domu</Link></li>
 									</ul>
 								</div>
 
 								<div className="col-lg-3 col-6 bottommargin-sm widget_links">
 									<ul>
-										<li><a href="#">Corporate</a></li>
-										<li><a href="#">Agency</a></li>
-										<li><a href="#">eCommerce</a></li>
-										<li><a href="#">Personal</a></li>
-										<li><a href="#">One Page</a></li>
+										<li><Link to="/projekty-instalacji-elektrycznej-w-przemysle">Projekty instalacji elektrycznej w przemyśle</Link></li>
+										<li><Link to="/projekty-instalacji-elektrycznej-w-domu">Projekty instalacji elektrycznej w domu</Link></li>
 									</ul>
 								</div>
 
 								<div className="col-lg-3 col-6 bottommargin-sm widget_links">
 									<ul>
-										<li><a href="#">Restaurant</a></li>
-										<li><a href="#">Wedding</a></li>
-										<li><a href="#">App Showcase</a></li>
-										<li><a href="#">Magazine</a></li>
-										<li><a href="#">Landing Page</a></li>
+										<li><Link to="/oswietlenie-przemyslowe-led"> Oprawy przemysłowe LED</Link></li>
+										<li><Link to="/iluminacje-swiateczne">Iluminacje swietlne</Link></li>
 									</ul>
 								</div>
 
-							</div> */}
+							</div>
 
 						</div>
 
