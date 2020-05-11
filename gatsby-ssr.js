@@ -5,3 +5,21 @@
  */
 
 // You can delete this file if you're not using it
+const React = require("react")
+
+export const onRenderBody = ({ setHeadComponents }, pluginOptions) => {
+  setHeadComponents([
+    <script
+      src="/js/jquery.js"
+    >
+    </script>,
+        <script
+        src="/js/plugins.js"
+      >
+      </script>,
+          <script
+          src="/js/functions.js"
+        >
+        </script>,
+  ])
+}
