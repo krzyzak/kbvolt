@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import logo from "../images/logo.png"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ phone }) => (
   <header id="header" className="sticky-style-2">
 
 			<div className="container clearfix">
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
 						<i className="i-plain icon-call nomargin"></i>
 						<div className="he-text">
 							Zadzwoń
-							<span>(32) 239-57-46</span>
+							<span>{phone}</span>
 						</div>
 					</li>
 					<li>
@@ -72,11 +72,11 @@ const Header = ({ siteTitle }) => (
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  phone: PropTypes.string,
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  phone: `606 394 570`,
 }
 
 export default Header

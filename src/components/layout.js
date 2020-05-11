@@ -20,7 +20,7 @@ import "./fonts.css"
 import "./colors.css"
 import "./dark.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ phone, children }) => {
   loadScript('js/jquery.js', { inBody: true })
   loadScript('js/plugins.js', { inBody: true })
   loadScript('js/functions.js', { inBody: true })
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header phone={phone} siteTitle={data.site.siteMetadata.title} />
       {children}
       <Footer />
     </>

@@ -6,7 +6,7 @@ import Title from "../components/title"
 import Content from "../components/content"
 
 const HomePVPage = () => (
-  <Layout>
+  <Layout phone="695 430 788">
     <SEO title="Fotowoltaika dla domu" />
     <Title title="Fotowoltaika dla domu" />
     <Content>
