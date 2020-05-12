@@ -3447,33 +3447,6 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	background-attachment: fixed;
 }
 
-/* Page Title - Parallax Background
------------------------------------------------------------------*/
-
-#page-title.page-title-parallax {
-	padding: 100px 0;
-	text-shadow: none;
-	border-bottom: none;
-}
-
-#page-title.page-title-parallax h1 {
-	font-size: 40px;
-	font-weight: 600;
-	letter-spacing: 2px;
-}
-
-#page-title.page-title-parallax span { font-size: 22px; }
-
-#page-title.page-title-parallax .breadcrumb { font-size: 13px; }
-
-#page-title.page-title-parallax {
-	background-color: transparent;
-	background-image: url('../images/parallax/parallax-bg.jpg');
-	background-attachment: fixed;
-	background-position: 50% 0;
-	background-repeat: no-repeat;
-}
-
 
 /* Page Title - Mini
 -----------------------------------------------------------------*/
