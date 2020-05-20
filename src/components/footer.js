@@ -9,13 +9,42 @@ const Footer = ({ phone }) => (
 
 				<div className="footer-widgets-wrap clearfix">
 
-					<div className="col_two_third">
+					<div className="">
 
 						<div className="widget clearfix">
+							<div className="widget clear-bottommargin-sm clearfix">
 
-							{/* <img src={logo} alt="" className="alignleft" /> */}
+							<div className="row">
+								<div className="col-sm-4 bottommargin-sm">
+									<div className="footer-big-contacts">
+										<span>Nasze dane</span>
+									</div>
+									<p>
+										P.P.H.U K.B. Volt sp. z O.O. <br />
+										ul. Zamkowa 10 <br />
+										43-178 Ornontowice <br />
+										NIP: 6351603595
+									</p>
+								</div>
 
-							<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
+								<div className="col-sm-4 bottommargin-sm">
+									<div className="footer-big-contacts">
+										<span>Zadzwoń do nas:</span>
+										{phone}
+									</div>
+								</div>
+
+								<div className="col-sm-4 bottommargin-sm">
+									<div className="footer-big-contacts">
+										<span>Napisz do nas:</span>
+										kbvolt@kbvolt.pl
+									</div>
+								</div>
+
+							</div>
+
+							</div>
+
 
 							<div className="line"></div>
 
@@ -55,34 +84,6 @@ const Footer = ({ phone }) => (
 						</div>
 
 					</div>
-
-
-					<div className="col_one_third col_last">
-
-						<div className="widget clear-bottommargin-sm clearfix">
-
-							<div className="row">
-
-								<div className="col-lg-12 bottommargin-sm">
-									<div className="footer-big-contacts">
-										<span>Zadzwoń do nas:</span>
-										{phone}
-									</div>
-								</div>
-
-								<div className="col-lg-12 bottommargin-sm">
-									<div className="footer-big-contacts">
-										<span>Napisz do nas:</span>
-										kbvolt@kbvolt.pl
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
 				</div>
 
 			</div>
