@@ -16,8 +16,10 @@ import "./bootstrap.css"
 import "./style.css"
 import "./construction.css"
 import "./fonts.css"
+import "./font-icons.css"
 import "./colors.css"
 import "./dark.css"
+import "./responsive.css"
 
 const Layout = ({ phone, children }) => {
   const data = useStaticQuery(graphql`
